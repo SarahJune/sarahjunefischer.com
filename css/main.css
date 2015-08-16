@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic|Stalemate);
+@import 'col.css';
+@import '2cols.css';
+@import '3cols.css';
+@import '4cols.css';
+@import '5cols.css';
+@import '6cols.css';
+@import '7cols.css';
+@import '8cols.css';
+@import '9cols.css';
+@import '10cols.css';
+@import '11cols.css';
+@import '12cols.css';
+@import 'html5reset.css';
+@import 'base.css';
+@import 'homepage_styles.css';
+
+header {
+  background-image: url("../img/background-hike.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  padding: 2%;
+  border-bottom: 5px solid #1A1C22;
+}
+article {
+  float: left;
+}
+article img {
+  width: 100%;
+}
+footer {
+  background: #1A1C22;
+  width:100%;
+  height:150px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  text-align: center;
+}
+footer p {
+  text-align: center;
+  vertical-align: middle;
+  color: #F1ECF5;
+  font-family: 'Lato', sans-serif;
+}

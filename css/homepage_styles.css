@@ -1,0 +1,45 @@
+header img {
+  float: left;
+  width: 115px;
+  z-index: 25;
+}
+/*header h1 {
+  float: left;
+  font-family: 'Stalemate', cursive;
+  z-index: 50;
+  font-size: 50px;
+  color: #F1ECF5;
+}*/
+header h2 {
+  padding-top: 40%;
+  text-align: center;
+  color: #F1ECF5;
+  font-family: 'Stalemate', cursive;
+  font-size: 50px;
+}
+.social-top {
+  position: fixed;
+  right: 0;
+  top: 0;
+  float: right;
+  padding: 2% 2% 0% 0%;
+}
+.social img {
+  width: 30px;
+  padding: 0% 5px;
+}
+.wrapper {
+  min-height:100%;
+  position:relative;
+}
+.info {
+  padding-bottom:35%;
+  background: #F1ECF5;
+}
+.info img {
+  width: 50%;
+}
+.logo {
+  position: fixed;
+}
+
