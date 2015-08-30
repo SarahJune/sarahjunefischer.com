@@ -25,9 +25,13 @@ header {
 }
 article {
   float: left;
+  text-align: center;
 }
 article img {
   width: 100%;
+}
+section {
+  margin: auto;
 }
 footer {
   background: #1A1C22;

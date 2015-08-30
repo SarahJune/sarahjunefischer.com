@@ -11,8 +11,9 @@ header img {
   color: #F1ECF5;
 }*/
 header h2 {
-  padding-top: 40%;
-  text-align: center;
+  padding-top: 35%;
+  padding-left: 5%;
+/*  text-align: center;*/
   color: #F1ECF5;
   font-family: 'Stalemate', cursive;
   font-size: 50px;
@@ -33,13 +34,26 @@ header h2 {
   position:relative;
 }
 .info {
-  padding-bottom:35%;
+  padding: 5% 5% 85% 5%;
   background: #F1ECF5;
+  z-index: 50;
+}
+.info h2 {
+  float: left;
+  font-family: 'Stalemate', cursive;
+  font-size: 50px;
+  margin-bottom: -60px;
+  position: relative;
+  z-index: 50;
+  padding: 10px;
+  background: gray;
+  margin-left: 47%;
 }
 .info img {
-  width: 50%;
+  margin-left: 15px auto;
+  margin-right: 15px auto;
+  margin-top: -13px;
 }
 .logo {
   position: fixed;
 }
-
