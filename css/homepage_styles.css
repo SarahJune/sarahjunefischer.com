@@ -1,59 +1,24 @@
-header img {
-  float: left;
-  width: 115px;
-  z-index: 25;
-}
-/*header h1 {
-  float: left;
-  font-family: 'Stalemate', cursive;
-  z-index: 50;
-  font-size: 50px;
-  color: #F1ECF5;
-}*/
-header h2 {
-  padding-top: 35%;
-  padding-left: 5%;
-/*  text-align: center;*/
-  color: #F1ECF5;
-  font-family: 'Stalemate', cursive;
-  font-size: 50px;
-}
-.social-top {
-  position: fixed;
-  right: 0;
-  top: 0;
-  float: right;
-  padding: 2% 2% 0% 0%;
-}
 .social img {
   width: 30px;
   padding: 0% 5px;
 }
 .wrapper {
-  min-height:100%;
+  min-height: 50%;
   position:relative;
 }
 .info {
-  padding: 5% 5% 85% 5%;
-  background: #F1ECF5;
+  padding: 2% 2% 2% 2%;
+  background-color:rgba(26, 28, 34, 0.8);
   z-index: 50;
+  position: relative;
+  width: 10%;
+  float: right;
+  margin-top: -44%;
+  margin-right: 1%;
 }
 .info h2 {
-  float: left;
-  font-family: 'Stalemate', cursive;
-  font-size: 50px;
-  margin-bottom: -60px;
-  position: relative;
-  z-index: 50;
-  padding: 10px;
-  background: gray;
-  margin-left: 47%;
+  color: #F1ECF5;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 }
-.info img {
-  margin-left: 15px auto;
-  margin-right: 15px auto;
-  margin-top: -13px;
-}
-.logo {
-  position: fixed;
-}
+

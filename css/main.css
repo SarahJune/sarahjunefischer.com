@@ -14,6 +14,7 @@
 @import 'html5reset.css';
 @import 'base.css';
 @import 'homepage_styles.css';
+@import 'header-styles.css';
 
 header {
   background-image: url("../img/background-hike.jpg");
@@ -21,7 +22,7 @@ header {
   background-attachment: fixed;
   background-size: 100%;
   padding: 2%;
-  border-bottom: 5px solid #1A1C22;
+  position: relative;
 }
 article {
   float: left;
@@ -36,15 +37,16 @@ section {
 footer {
   background: #1A1C22;
   width:100%;
-  height:150px;
-  position:absolute;
+  position:relative;
   bottom:0;
   left:0;
   text-align: center;
+  padding: 10px 0 20px 0;
 }
 footer p {
   text-align: center;
   vertical-align: middle;
   color: #F1ECF5;
   font-family: 'Lato', sans-serif;
+  padding: 10px 0;
 }

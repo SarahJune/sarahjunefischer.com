@@ -1,0 +1,30 @@
+header img {
+  float: right;
+  width: 115px;
+  z-index: 25;
+}
+/*header h1 {
+  float: left;
+  font-family: 'Stalemate', cursive;
+  z-index: 50;
+  font-size: 50px;
+  color: #F1ECF5;
+}*/
+header h2 {
+  padding-top: 35%;
+  padding-left: 5%;
+/*  text-align: center;*/
+  color: #F1ECF5;
+  font-family: 'Stalemate', cursive;
+  font-size: 50px;
+}
+.logo {
+  position: fixed;
+  float: left;
+  padding-left: .5%;
+}
+.social-top {
+  position: fixed;
+  float: left;
+  padding-top: 10%;
+}
