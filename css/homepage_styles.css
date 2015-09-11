@@ -1,24 +1,34 @@
-.social img {
-  width: 30px;
-  padding: 0% 5px;
-}
-.wrapper {
-  min-height: 50%;
-  position:relative;
-}
 .info {
   padding: 2% 2% 2% 2%;
-  background-color:rgba(26, 28, 34, 0.8);
+  float: left;
   z-index: 50;
-  position: relative;
-  width: 10%;
-  float: right;
-  margin-top: -44%;
-  margin-right: 1%;
+  border-bottom: black solid 1px;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
 }
 .info h2 {
-  color: #F1ECF5;
-  font-family: 'Lato', sans-serif;
+  color: #B87666;
   text-align: center;
+  font-size: 22px;
+  font-weight: 700;
 }
 
+.info p {
+  margin: 2%;
+}
+
+figure {
+  width: 20%;
+  height: 20%;
+  float: left;
+/*  border: 1px solid black;*/
+  vertical-align: middle;
+  margin: 2%;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+  background-color: #B87666;
+}

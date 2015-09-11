@@ -15,33 +15,21 @@
 @import 'base.css';
 @import 'homepage_styles.css';
 @import 'header-styles.css';
+@import 'layout.css';
 
 header {
-  background-image: url("../img/background-hike.jpg");
+  background-image: url("../img/landscape-background-1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
-  padding: 2%;
   position: relative;
-}
-article {
-  float: left;
-  text-align: center;
-}
-article img {
-  width: 100%;
-}
-section {
-  margin: auto;
+  border-bottom: 10px solid #0F161B;
 }
 footer {
-  background: #1A1C22;
+  background-color: #0F161B;
   width:100%;
-  position:relative;
-  bottom:0;
-  left:0;
   text-align: center;
-  padding: 10px 0 20px 0;
+  float: left;
 }
 footer p {
   text-align: center;
