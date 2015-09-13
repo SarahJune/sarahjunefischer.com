@@ -12,9 +12,19 @@
   font-size: 22px;
   font-weight: 700;
 }
+.info a {
+  text-decoration: none;
+  color: #0F161B;
+}
+.info a:hover {
+  color: #gB87666
+}
+.blog h3 {
+  font-weight: 700;
+}
 
-.info p {
-  margin: 2%;
+.blog h4 {
+  font-style: italic;
 }
 
 figure {
