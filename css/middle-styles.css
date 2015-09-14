@@ -1,39 +1,45 @@
 .info {
-  padding: 2% 2% 2% 2%;
+  padding: 4% 2% 3% 2%;
   float: left;
-  z-index: 50;
-  border-bottom: black solid 1px;
+  border-top: black solid 1px;
   text-align: left;
   font-family: 'Lato', sans-serif;
+  width: 100%;
+  margin-top: 30px;
 }
 .info h2 {
   color: #B87666;
-  text-align: center;
-  font-size: 22px;
+  /*text-align: center;*/
+  float: left;
+  font-size: 32px;
   font-weight: 700;
+  background-color: white;
+  padding:0 2% 0 2%;
+  margin: -50px auto 0 auto;
 }
 .info a {
   text-decoration: none;
   color: #0F161B;
 }
 .info a:hover {
-  color: #gB87666
+  color: #B87666
+}
+.about figure {
+  width: 33%;
 }
 .blog h3 {
   font-weight: 700;
 }
-
 .blog h4 {
   font-style: italic;
 }
-
 figure {
   width: 20%;
   height: 20%;
   float: left;
 /*  border: 1px solid black;*/
   vertical-align: middle;
-  margin: 2%;
+  margin-right: 5%;
 }
 
 figure img {
