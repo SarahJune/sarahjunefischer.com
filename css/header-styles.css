@@ -9,13 +9,17 @@
   font-size: 50px;
   color: #F1ECF5;
 }*/
+header h1 {
+  text-align: left;
+  color: #B87666;
+  font-family: 'Bad Script', cursive;
+  font-size: 40px;
+  padding: 15px 5px 5px 10px;
+  font-weight: 700;
+}
 header h2 {
-  padding-top: 23%;
-  padding-bottom: 23%;
-  text-align: center;
-  color: #F1ECF5;
-  font-family: 'Stalemate', cursive;
-  font-size: 50px;
+  padding-bottom: 170px;
+  padding-top: 0%;
 }
 .logo {
   position: fixed;
@@ -33,7 +37,7 @@ header h2 {
 .social-top {
   position: fixed;
   width: 100%;
-  background-color: rgba(15, 22, 27, .8);
+  background-color: rgba(20, 29, 26, .9);
   /*background-color: rgba(0, 0, 0, .5);*/
 }
 .social-top img {

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Sarah June Fischer</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../css/main.css">
+      <script language="javascript" type="text/javascript" src="js/main.js"></script>
+  </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+      <header>
+        <section class="top">
+          <a href="/">
+            <img src="../img/sjf-logo-blue.png" alt="Sarah June Fischer" class="logo">
+          </a>
+          <section class="social social-top">
+            <a href="mailto:sarah@sarahjunefischer.com"><img src="../img/mail-icon.png" alt="contact"></a>
+            <a href="https://github.com/sarahjune"><img src="../img/github-icon-3.png" alt="github"></a>
+            <a href="https://www.etsy.com/shop/CanvasandTweed?ref=l2-shopheader-name"><img src="../img/etsy-icon-3.png" alt="etsy"></a>
+            <a href="https://twitter.com/Sarah_June12"><img src="../img/twitter-icon-3.png" alt="twitter"></a>
+            <a href="https://www.linkedin.com/in/sarahjunefischer"><img src="../img/linkedin-icon-3.png" alt="linkedin"></a>
+          </section>
+        </section>
+        <section class="span_8_of_12 offset_2 article">
+          <h1>Blog Title</h1>
+          <h4 class="date">date</h4>
+          <h3></h3>
+            <p></p>
+            <p></p>
+            <p class="pull quote">
+          <h3></h3>
+            <p></p>
+            <p></p>
+        </section>
+        <footer>
+          <p>hi, mom!</p>
+          <section class="social">
+            <a href="https://www.linkedin.com/in/sarahjunefischer"><img src="../img/linkedin-icon-3.png" alt="linkedin"></a>
+            <a href="https://twitter.com/Sarah_June12"><img src="../img/twitter-icon-3.png" alt="twitter"></a>
+            <a href="https://www.etsy.com/shop/CanvasandTweed?ref=l2-shopheader-name"><img src="../img/etsy-icon-3.png" alt="etsy"></a>
+            <a href="https://github.com/sarahjune"><img src="../img/github-icon-3.png" alt="github"></a>
+            <a href="mailto:sarah@sarahjunefischer.com"><img src="../img/mail-icon.png" alt="contact"></a>
+          </section>
+        </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
