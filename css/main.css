@@ -17,6 +17,7 @@
 @import 'header-styles.css';
 @import 'layout.css';
 @import 'blog.css';
+@import 'media-styles.css';
 
 .home {
   background-image: url("../img/landscape-background-2.png");
@@ -24,11 +25,6 @@
   background-size: 100%;
   position: relative;
   border-bottom: 5px solid #141D24;
-}
-iframe {
-  width: 40%;
-  margin-right: 5%;
-  height: 275px; /*or any other size*/
 }
 footer {
   background-color: #141D24;
@@ -42,3 +38,6 @@ footer p {
   font-family: 'Lato', sans-serif;
   padding: 10px 0;
 }
+
+
+

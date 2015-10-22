@@ -31,6 +31,7 @@
 }
 .info h4 {
   font-weight: 700;
+/*  margin-top: 20px;*/
 }
 .info h5 {
   font-style: italic;
@@ -52,14 +53,23 @@ em {
   font-style: italic;
 }
 .content {
-  margin: 40px 10%;
+  margin: 50px 10% 20px 10%;
+}
+.segment {
+  margin-top: 20px;
+}
+.segment:first-child {
+  margin-top: 0;
 }
 .about figure {
   width: 33%;
 }
+.projects figure img {
+  padding: 0;
+  background-color: none;
+  width: 50%;
+}
 figure {
-  width: 20%;
-  height: 20%;
   float: left;
   margin-right: 25px;
   margin-top: 8px;
@@ -70,3 +80,5 @@ figure img {
   padding: 2px;
   background-color: #B87666;
 }
+
+
