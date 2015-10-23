@@ -10,12 +10,15 @@
   color: #F1ECF5;
 }*/
 header h1 {
-  text-align: left;
-  color: #B87666;
-  font-family: 'Bad Script', cursive;
+  text-align: center;
+/*  color: #B87666;*/
+  color: black;
+  font-family: 'Stalemate', cursive;
   font-size: 40px;
-  padding: 15px 5px 5px 10px;
+  padding: 50px 5px 5px 10px;
   font-weight: 700;
+  z-index: 30;
+  background-color: rgba(20, 29, 26, .5);
 }
 header h2 {
   padding-bottom: 170px;
@@ -29,6 +32,16 @@ header .logo {
   padding: 10px 48%;
   margin: 3% 0;
   background-color: rgba(20, 29, 26, .5);
+}
+.home {
+  background-image: url("../img/landscape-background-3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  border-bottom: 5px solid #0F161B;
+  height: 175px;
+  z-index: 50;
 }
 .top img {
   width: 100px;
@@ -48,5 +61,5 @@ header .logo {
 }
 .social img {
   width: 25px;
-  padding: 5px;
+  padding: 3px;
 }

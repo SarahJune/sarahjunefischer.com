@@ -7,42 +7,50 @@
   margin: 40px 0px;
   border-top: 1px solid gray;
 }
-.info h3, h4, h5, h6, p, a {
-  color: #777876;;
-}
-.info h2 {
-  color: #B87666;
-  font-family: 'Bad Script';
-  float: left;
-  font-size: 30px;
-  font-weight: 700;
-  background-color: white;
-  margin: -10px auto 0 9px;
-  padding: 0 10px;
-  text-transform: uppercase;
-}
-.info h3 {
-  font-family: 'Bad Script';
-  font-size: 25px;
-  margin-bottom: 5px;
-  margin-top: 40px;
-/*  text-decoration: underline;*/
-/*  border-bottom: 1px solid #777876;*/
-}
-.info h4 {
-  font-weight: 700;
-/*  margin-top: 20px;*/
-}
-.info h5 {
-  font-style: italic;
-}
-.info a {
-  text-decoration: none;
-  font-weight: 700;
-}
-.info a:hover {
-  color: #B87666
-}
+/*  .info:first-child {
+    margin: 40px 0px 0px 0px;
+  }*/
+  .info h3, h4, h5, h6, p, a {
+    color: #777876;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .info h2 {
+    color: #B87666;
+    font-family: 'Bad Script';
+    float: left;
+    font-size: 34px;
+    font-weight: 700;
+    background-color: white;
+    margin: -10px auto 0 9px;
+    padding: 0 10px;
+    text-transform: uppercase;
+  }
+  .info h3 {
+    font-family: 'Bad Script';
+    font-size: 28px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+  /*  text-decoration: underline;*/
+  /*  border-bottom: 1px solid #777876;*/
+  }
+    .info h3:first-child {
+      margin-top: 0px;
+    }
+  .info h4 {
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  .info h5 {
+    font-style: italic;
+  }
+  .info a {
+    text-decoration: none;
+    font-weight: 700;
+  }
+    .info a:hover {
+      color: #B87666;
+    }
 p {
   margin-bottom: 25px;
 }
@@ -53,32 +61,40 @@ em {
   font-style: italic;
 }
 .content {
-  margin: 50px 10% 20px 10%;
+  margin: 50px 10% 0 10%;
 }
-.segment {
+  .content figure {
+    float: left;
+    margin-right: 25px;
+    margin-top: 8px;
+/*    height: 80%;
+    overflow: hidden;*/
+  }
+/*.segment {
   margin-top: 20px;
 }
-.segment:first-child {
-  margin-top: 0;
+  .segment:first-child {
+    margin-top: 0;
+  }*/
+.column-1 {
+  float: left;
+  width: 50%;
+  margin-right: 5%;
+}
+.column-2 {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
 }
 .about figure {
   width: 33%;
 }
+  .about figure img {
+    width: 100%;
+  }
 .projects figure img {
-  padding: 0;
-  background-color: none;
   width: 50%;
-}
-figure {
-  float: left;
-  margin-right: 25px;
-  margin-top: 8px;
-}
-figure img {
-  width: 100%;
-  height: 100%;
-  padding: 2px;
-  background-color: #B87666;
+  height: 50%;
 }
 
 

@@ -17,17 +17,10 @@
 @import 'header-styles.css';
 @import 'layout.css';
 @import 'blog.css';
-@import 'media-styles.css';
+@import url("media-styles.css") screen and (max-width: 600px);
 
-.home {
-  background-image: url("../img/landscape-background-2.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-  border-bottom: 5px solid #141D24;
-}
 footer {
-  background-color: #141D24;
+  background-color: #0F161B;
   width: 100%;
   text-align: center;
   float: left;
